@@ -10,6 +10,7 @@ import Dashboard from './pages/Dashboard'
 import Profile from './pages/Profile'
 import { UserProvider } from '../context/UserContext'
 import Explore from './pages/Explore'
+import HeroSection from './components/HeroSection'
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HeroSection/>}/>
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/login" element={<Login />} />
