@@ -1,7 +1,7 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
-import Header from "../components/Header";
+import Header from "../components/Navbar";
 
 // function HeroScene() {
 //   return (
