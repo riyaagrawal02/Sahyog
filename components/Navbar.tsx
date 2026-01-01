@@ -13,7 +13,6 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 px-6 py-4"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-blue-500 flex items-center justify-center">
@@ -24,7 +23,6 @@ export function Navbar() {
           <span className="text-xl font-bold tracking-tight">Clivra</span>
         </Link>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           <NavItem href="/learn" label="Learn" />
           <NavItem href="/challenges" label="Challenges" />
@@ -32,7 +30,7 @@ export function Navbar() {
           <NavItem href="/community" label="Community" />
         </div>
 
-        {/* Auth Buttons */}
+      
         <div className="flex items-center gap-4">
           <Link
             href="/login"
